@@ -141,3 +141,15 @@ nav .logo {
 	display: inline-block;
 	width: 49%;
 }
+
+/* Bottom Content */
+#index .bot-content {
+	margin-top: 37px;
+	padding-bottom: 46px;
+	border-bottom: 1px solid black;
+}
+
+#index .bot-content article {
+	display: inline-block;
+	width: 33%;
+}
