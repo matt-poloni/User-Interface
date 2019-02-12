@@ -68,3 +68,26 @@ h1, h2, h3, h4, h5 {
 .test {
 	outline: red solid 1px;
 }
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 29px;
+}
+
+nav a {
+	display: inline-block;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	margin-right: 63px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+}
