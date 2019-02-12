@@ -153,3 +153,19 @@ nav .logo {
 	display: inline-block;
 	width: 33%;
 }
+
+/* Contact */
+#index .contact {
+	margin-top: 39px;
+}
+
+#index .contact p {
+	margin-top: 17px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	font-size: 14px;
+	margin: 54px 0 115px 0;
+}
