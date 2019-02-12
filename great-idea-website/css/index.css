@@ -73,6 +73,11 @@ p {
 	line-height: 1.15;
 }
 
+/* STRETCH GOAL #2 */
+h1, h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+
 /* Container Div */
 .container {
 	width: 876px;
