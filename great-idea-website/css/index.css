@@ -69,11 +69,13 @@ h1, h2, h3, h4, h5 {
 	outline: red solid 1px;
 }
 
+/* Container Div */
 .container {
 	width: 876px;
 	margin: 0 auto;
 }
 
+/* Navbar */
 nav {
 	margin-top: 29px;
 }
@@ -86,8 +88,42 @@ nav a {
 	margin-right: 63px;
 }
 
-.logo {
+nav .logo {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 30px;
 }
+
+/* =====INDEX STYLES===== */
+
+/* Header */
+#index header {
+	margin-top: 68px;
+	padding-bottom: 75px;
+	border-bottom: 1px solid black;
+}
+
+#index header .header-left {
+	display: inline-block;
+	width: 493px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#index header h1 {
+	font-size: 75px;
+	margin-top: 58px;
+}
+
+#index header button {
+	color: black;
+	background: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* #index header img {
+	display: inline-block;
+} */
