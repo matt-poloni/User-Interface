@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
 	outline: red solid 1px;
 }
 
+p {
+	line-height: 1.15;
+}
+
 /* Container Div */
 .container {
 	width: 876px;
@@ -127,3 +131,13 @@ nav .logo {
 /* #index header img {
 	display: inline-block;
 } */
+
+/* Top Content */
+#index .top-content {
+	margin: 39px 0 37px 0;
+}
+
+#index .top-content article {
+	display: inline-block;
+	width: 49%;
+}
