@@ -101,6 +101,16 @@ nav a {
 	text-decoration: none;
 	margin-left: 20px;
 	margin-right: 43px;
+	box-sizing: content-box;
+	border-radius: 5px;
+	transition: all 1s ease-out;
+}
+
+nav a:hover {
+	color: black;
+	background: white;
+	padding: 5px;
+	margin-right: 33px;
 }
 
 nav .logo {
@@ -138,6 +148,12 @@ nav .logo {
 	padding: 5px 40px;
 	font-size: 16px;
 	font-family: 'Titillium Web', sans-serif;
+	transition: all 1s ease-out;
+}
+
+#index header button:hover {
+	color: white;
+	background: black;
 }
 
 button:hover {
