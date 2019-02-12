@@ -81,28 +81,35 @@ p {
 
 /* Navbar */
 nav {
-	margin-top: 29px;
+	padding: 29px 0 10px 0;
+	background: black;
+	position: sticky;
+	top: -20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 nav a {
 	display: inline-block;
 	font-size: 14px;
-	color: gray;
+	color: white;
 	text-decoration: none;
-	margin-right: 63px;
+	margin-left: 20px;
+	margin-right: 43px;
 }
 
 nav .logo {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 30px;
+	margin-left: 15px;
+	filter: invert(100%);
 }
 
 /* =====INDEX STYLES===== */
 
 /* Header */
 #index header {
-	margin-top: 68px;
+	margin-top: 58px;
 	padding-bottom: 75px;
 	border-bottom: 1px solid black;
 }
