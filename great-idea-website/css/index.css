@@ -64,3 +64,140 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.test {
+	outline: red solid 1px;
+}
+
+p {
+	line-height: 1.15;
+}
+
+/* STRETCH GOAL #2 */
+h1, h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* Container Div */
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+/* Navbar */
+nav {
+	padding: 29px 0 10px 0;
+	background: black;
+	position: sticky;
+	top: -20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+nav a {
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 43px;
+	box-sizing: content-box;
+	border-radius: 5px;
+	transition: all 1s ease-out;
+}
+
+nav a:hover {
+	color: black;
+	background: white;
+	padding: 5px;
+	margin-right: 33px;
+}
+
+nav .logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	filter: invert(100%);
+}
+
+/* =====INDEX STYLES===== */
+
+/* Header */
+#index header {
+	margin-top: 58px;
+	padding-bottom: 75px;
+	border-bottom: 1px solid black;
+}
+
+#index header .header-left {
+	display: inline-block;
+	width: 493px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#index header h1 {
+	font-size: 75px;
+	margin-top: 58px;
+}
+
+#index header button {
+	color: black;
+	background: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	transition: all 1s ease-out;
+}
+
+#index header button:hover {
+	color: white;
+	background: black;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/* #index header img {
+	display: inline-block;
+} */
+
+/* Top Content */
+#index .top-content {
+	margin: 39px 0 37px 0;
+}
+
+#index .top-content article {
+	display: inline-block;
+	width: 49%;
+}
+
+/* Bottom Content */
+#index .bot-content {
+	margin-top: 37px;
+	padding-bottom: 46px;
+	border-bottom: 1px solid black;
+}
+
+#index .bot-content article {
+	display: inline-block;
+	width: 33%;
+}
+
+/* Contact */
+#index .contact {
+	margin-top: 39px;
+}
+
+#index .contact p {
+	margin-top: 17px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	font-size: 14px;
+	margin: 54px 0 115px 0;
+}
